@@ -1,0 +1,15 @@
+﻿<Window x:Class="Verdant.KartRider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Verdant.KartRider"
+        mc:Ignorable="d"
+        Title="Kart" Height="280" Width="556" ResizeMode="NoResize" Background="#FF383838" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="startButton" Content="GAME START" HorizontalAlignment="Left" Height="60" Margin="335,173,0,0" VerticalAlignment="Top" Width="190" Background="#FF292828" Foreground="White" IsEnabled="False" Click="StartButton_Click"/>
+        <Label x:Name="statusLabel" Content="Loading..." HorizontalAlignment="Left" Height="29" Margin="60,72,0,0" VerticalAlignment="Top" Width="198" Foreground="White"/>
+        <Label x:Name="label1" Content="Kart Rider" HorizontalAlignment="Left" Height="59" Margin="24,21,0,0" VerticalAlignment="Top" Width="234" Foreground="White" FontSize="24"/>
+
+    </Grid>
+</Window>
